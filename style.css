@@ -1,0 +1,128 @@
+/* style.css */
+*{
+    font-family: Roboto;
+}
+a:link, a:visited, a:hover, a:active { 
+    color:#E5E7EB;
+    text-decoration: none
+}
+.header{
+    background-color: #1F2937;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-links {
+    display:flex;
+    flex-flow:row wrap;
+    gap:15px;
+    padding-right:150px;
+}
+.header-logo{
+    font-size:24px;
+    color: #F9FAF8;
+    padding-left:150px;
+}
+.hero, .footer{
+    background-color: #1F2937;
+}
+.hero{
+    display:flex;
+    justify-content: center;
+    padding:150px;
+    flex-flow: row nowrap;
+    gap:60px
+}
+.hero-main{
+    font-size:48px;
+    font-weight:900;
+    color:#F9FaF8;
+    flex-flow: row wrap;
+    width:375px;
+    height:125px;
+}
+.hero-sub, .header-links, .hero-button{
+    font-size:18px;
+    color: #E5E7EB;
+}
+.hero-sub{
+    display:flex;
+    flex-flow: row wrap;
+    height: 45px;
+    width:400px
+}
+.hero-img{
+    display:flex;
+    align-items: center;
+    width:400px;
+    height:200px;
+    justify-content: center;
+    background-color: #6D747D;
+}
+.hero-button, .cta-button, .cta-sub {
+    background-color: #3882F6;
+}
+.info-main{
+    font-size:36px;
+    color:#1F2937;
+    font-weight: 900;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    margin:50px; 
+}
+.hero-button{
+    border-radius:4px;
+    display:flex;
+    width: 150px;
+    height:30px;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    font-style: italic;
+}
+.quote-sec{
+    background-color:#E5E7EB;
+}
+ul {
+  list-style-type: none;
+}
+.cta-sub{
+    background-color: #3882F6;
+}
+.info-main-con{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    min-width: 200px;
+    gap:25px;
+    margin-bottom: 120px;
+}
+.info-container{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.info-img {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:160px;
+    width:170px;
+    border:#3882F6;
+    border-style:solid;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.info-sub {
+    display:flex;
+    flex-flow:row wrap;
+    width: 170px;
+    text-align: center;   
+}
+
+
