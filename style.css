@@ -6,6 +6,9 @@ a:link, a:visited, a:hover, a:active {
     color:#E5E7EB;
     text-decoration: none
 }
+ul {
+  list-style-type: none;
+}
 .header{
     background-color: #1F2937;
     display:flex;
@@ -79,18 +82,6 @@ a:link, a:visited, a:hover, a:active {
     justify-content: center;
     align-items: center;
 }
-.quote{
-    font-style: italic;
-}
-.quote-sec{
-    background-color:#E5E7EB;
-}
-ul {
-  list-style-type: none;
-}
-.cta-sub{
-    background-color: #3882F6;
-}
 .info-main-con{
     display:flex;
     flex-flow:row wrap;
@@ -124,5 +115,74 @@ ul {
     width: 170px;
     text-align: center;   
 }
-
-
+.quote{
+    font-style: italic;
+    font-size:36px;
+    color:#1F2937;
+    font-weight:300;
+}
+.quote-sec{
+    display:flex;
+    min-height:435px;
+    align-items: center;
+    flex-flow:column wrap;
+    justify-content: center;
+    background-color:#E5E7EB;
+    height:435px;
+    padding-left: 500px;
+    padding-right:500px
+}
+.quote-by{
+    display:flex;
+    align-self:end;
+}
+.cta{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:350px;
+}
+.cta-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:145px;
+    width:1025px;
+    background-color: #3882F6;
+    border-radius: 20px;
+    flex-direction: row;
+    gap:165px;
+}
+.cta-side{
+    display:flex;
+    flex-direction: column;
+}
+.cta-maintext{
+    font-size:x-large;
+    color:white;
+    flex-shrink:0;
+}
+.cta-subtext{
+    font-size:medium;
+    color:white;
+}
+.cta-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    border-style: solid;
+    height:45px;
+    width:145px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size:x-large
+}
+.footer{
+    height:100px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    font-size:x-large;
+    align-items: center;
+}
