@@ -1,4 +1,5 @@
 /* style.css */
+/* misc section */
 *{
     font-family: Roboto;
 }
@@ -9,6 +10,19 @@ a:link, a:visited, a:hover, a:active {
 ul {
   list-style-type: none;
 }
+.hero, .footer{
+    background-color: #1F2937;
+}
+.hero-button, .cta-button, .cta-container {
+    background-color: #3882F6;
+}
+body{
+    background-image: url(https://theculinarycollectiveatl.com/wp-content/uploads/2024/03/2148516578.webp);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* Header section */
 .header{
     background-color: #1F2937;
     display:flex;
@@ -25,10 +39,9 @@ ul {
     font-size:24px;
     color: #F9FAF8;
     padding-left:150px;
+    font-weight:bolder;
 }
-.hero, .footer{
-    background-color: #1F2937;
-}
+/* hero section */
 .hero{
     display:flex;
     justify-content: center;
@@ -61,18 +74,7 @@ ul {
     height:200px;
     justify-content: center;
     background-color: #6D747D;
-}
-.hero-button, .cta-button, .cta-sub {
-    background-color: #3882F6;
-}
-.info-main{
-    font-size:36px;
-    color:#1F2937;
-    font-weight: 900;
-    display:flex;
-    justify-content: center;
-    align-items: center; 
-    margin:50px; 
+    color:white;
 }
 .hero-button{
     border-radius:4px;
@@ -81,6 +83,18 @@ ul {
     height:30px;
     justify-content: center;
     align-items: center;
+}
+/* Information Section */
+.info-main{
+    font-size:36px;
+    color:#1F2937;
+    font-weight: 900;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    margin:50px; 
+    background-color: #feffffa4; 
+    border-radius: 15px;
 }
 .info-main-con{
     display:flex;
@@ -97,6 +111,7 @@ ul {
     flex-flow:column wrap;
     justify-content: center;
     align-items: center;
+    gap:10px
 }
 .info-img {
     display:flex;
@@ -111,10 +126,15 @@ ul {
 }
 .info-sub {
     display:flex;
+    align-items: center;
+    justify-content: center;
     flex-flow:row wrap;
     width: 170px;
-    text-align: center;   
+    text-align: center;  
+    background-color: #feffffa4; 
+    border-radius: 15px;
 }
+/* quote section */
 .quote{
     font-style: italic;
     font-size:36px;
@@ -137,6 +157,7 @@ ul {
     display:flex;
     align-self:end;
 }
+/* Call to action section */
 .cta{
     display:flex;
     justify-content: center;
@@ -149,7 +170,6 @@ ul {
     align-items: center;
     height:145px;
     width:1025px;
-    background-color: #3882F6;
     border-radius: 20px;
     flex-direction: row;
     gap:165px;
@@ -174,11 +194,12 @@ ul {
     border-color: white;
     border-style: solid;
     height:45px;
-    width:145px;
+    width:165px;
     border-radius: 15px;
     font-weight: bold;
     font-size:x-large
 }
+/* footer section */
 .footer{
     height:100px;
     color:white;
