@@ -130,7 +130,8 @@ ul {
     background-color:#E5E7EB;
     height:435px;
     padding-left: 500px;
-    padding-right:500px
+    padding-right:500px;
+    flex-grow: 0;
 }
 .quote-by{
     display:flex;
