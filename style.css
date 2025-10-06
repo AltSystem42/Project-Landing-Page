@@ -38,8 +38,12 @@ body{
 .header-logo{
     font-size:24px;
     color: #F9FAF8;
-    padding-left:150px;
+    margin-left:150px;
+    margin-top: 20px;
     font-weight:bolder;
+    border-style: solid;
+    padding:10px;
+    border-radius: 20px;
 }
 /* hero section */
 .hero{
@@ -194,7 +198,7 @@ body{
     border-color: white;
     border-style: solid;
     height:45px;
-    width:165px;
+    width:190px;
     border-radius: 15px;
     font-weight: bold;
     font-size:x-large
