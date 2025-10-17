@@ -142,9 +142,12 @@ body{
 .quote{
     display:flex;
     font-style: italic;
-    font-size-adjust: 5vw;
+    font-size: clamp(30px, 4.5cqw, 8px);
     color:#1F2937;
     font-weight:300;
+    margin: 0px 100px 0px 100px;
+    flex-wrap:nowrap;
+    flex-shrink:1;
 }
 .quote-sec{
     display:flex;
@@ -154,13 +157,11 @@ body{
     justify-content: center;
     background-color:#E5E7EB;
     height:435px;
-    padding-left: 500px;
-    padding-right:500px;
     flex-grow: 0;
 }
 .quote-by{
     display:flex;
-    align-self:end;
+    align-self:center;
 }
 /* Call to action section */
 .cta{
@@ -212,4 +213,12 @@ body{
     justify-content: center;
     font-size:x-large;
     align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .quote, .quote-by {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem
+    }
 }
