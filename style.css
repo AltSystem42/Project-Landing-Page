@@ -140,8 +140,9 @@ body{
 }
 /* quote section */
 .quote{
+    display:flex;
     font-style: italic;
-    font-size:36px;
+    font-size-adjust: 5vw;
     color:#1F2937;
     font-weight:300;
 }
